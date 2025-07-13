@@ -17,16 +17,15 @@ Um guia completo para transformar seu terminal em uma máquina de produtividade 
 
 ## 🍎 Pré-requisitos
 
-🛠️ Homebrew (Gerenciador de Pacotes)
-```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```<br/>
-```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ```
-```bash source ~/.zshrc ```
-
+📡 Homebrew (Gerenciador de Pacotes) <br/>
+```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ``` <br/>
+```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ``` <br/>
+```bash source ~/.zshrc ``` <br/>
 
 🛠️ Instalação
 Oh My Zsh (Framework Zsh) <br/>
 ```bash brew install zsh``` <br/>
-```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```<br/>
+```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ``` <br/>
 
 🔌 Plugins Recomendados
 Plugin	Comando	Benefício <br/>
@@ -35,7 +34,7 @@ Plugin	Comando	Benefício <br/>
 3. Zoxide	```bash brew install zoxide	``` 🛠️ Navegação inteligente entre pastas<br/>
 4. FZF	```bash brew install fzf && $(brew --prefix)/opt/fzf/install```	🛠️ Busca fuzzy super rápida<br/>
 
-🛠️ Ferramentas Essenciais
+🧰 Ferramentas Essenciais
 Dev Tools
 ```bash
 brew install \
@@ -48,7 +47,7 @@ brew install \
   ruby
 ```
 
-🛠️ Cloud Tools
+☁️ Cloud Tools
 ```bash
 brew install \
   awscli \
@@ -58,12 +57,12 @@ brew install \
   k9s
 ```
 
-⚙️ Java Ecosystem (via SDKMAN!)
+⚙️ Java Ecosystem (via SDKMAN!) <br/>
 ```bash curl -s "https://get.sdkman.io" | bash ``` <br/>
 ```bash source "$HOME/.sdkman/bin/sdkman-init.sh" ``` <br/>
 ```bash sdk install java 21.0.0-tem ``` <br/>
 
-📋 Copiar configuração completa (https://github.com/andradesampaio/shell-setup/blob/main/.zshrc)
+🗂️ Copiar configuração completa (https://github.com/andradesampaio/shell-setup/blob/main/.zshrc)
 
 💡 Dicas e Atalhos
 Comandos Úteis
@@ -72,24 +71,24 @@ Comandos Úteis
 2. atalhos        # Lista seus atalhos personalizados
 3. z <pasta>      # Navegação inteligente (zoxide)
 
-📋 Teclas de Atalho
+📋 Teclas de Atalho 
 1. Ctrl+R: Busca no histórico com FZF
 2. Ctrl+T: Busca de arquivos
 3. Alt+C: Navegação entre pastas
 
-🔄 Manutenção
-Atualizar Tudo<br/>
+🧰 Manutenção <br/>
+Atualizar Tudo <br/>
 ```bash brew update && brew upgrade ``` <br/>
 ```bash omz update ``` <br/>
 ```bash sdk selfupdate ``` <br/>
 
-🛠️  Solução de Problemas
-Se plugins não carregarem:
+🔄 Solução de Problemas <br/>
+Se plugins não carregarem: <br/>
 ```bash exec zsh ```
 
-🛠️ Limpar cache:
-```bash rm ~/.zcompdump* ```
+🧹 Limpar cache: <br/>
+```bash rm ~/.zcompdump* ``` <br/>
 
-🌟 Recomendações Finais
+🌟 Recomendações Finais <br/>
 1. Reinicie o terminal após mudanças
 2. Personalize aliases no seu .zshrc
