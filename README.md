@@ -28,7 +28,7 @@ Oh My Zsh (Framework Zsh) <br/>
 ```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ``` <br/>
 
 🔌 Plugins Recomendados
-Plugin	Comando	Benefício <br/>
+Plugin	Comando	Benefício
 1. Autosuggestions	```bash brew install zsh-autosuggestions ``` 	🛠️ Completa comandos automaticamente<br/>
 2. Syntax Highlighting	```bashbrew install zsh-syntax-highlighting ```	🛠️ Destaca sintaxe dos comandos<br/>
 3. Zoxide	```bash brew install zoxide	``` 🛠️ Navegação inteligente entre pastas<br/>
@@ -66,7 +66,6 @@ brew install \
 
 💡 Dicas e Atalhos
 Comandos Úteis
-
 1. check_env      # Verifica todas as ferramentas
 2. atalhos        # Lista seus atalhos personalizados
 3. z <pasta>      # Navegação inteligente (zoxide)
@@ -89,6 +88,6 @@ Se plugins não carregarem: <br/>
 🧹 Limpar cache: <br/>
 ```bash rm ~/.zcompdump* ``` <br/>
 
-🌟 Recomendações Finais <br/>
+🌟 Recomendações Finais
 1. Reinicie o terminal após mudanças
 2. Personalize aliases no seu .zshrc
