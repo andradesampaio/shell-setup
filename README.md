@@ -18,19 +18,15 @@ Um guia completo para transformar seu terminal em uma máquina de produtividade 
 ## 🍎 Pré-requisitos
 
 ### Homebrew (Gerenciador de Pacotes)
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ```
+```bash source ~/.zshrc ```
 
-echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
-```
 
 ## 🛠️ Instalação
 Oh My Zsh (Framework Zsh)
-```bash
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+```bash brew install zsh```
+```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```
 
 🔌 Plugins Recomendados
 Plugin	Comando	Benefício
@@ -51,6 +47,7 @@ brew install \
   node \
   ruby
 ```
+
 🛠️ Cloud Tools
 ```bash
 brew install \
@@ -60,6 +57,7 @@ brew install \
   helm \
   k9s
 ```
+
 ⚙️ Java Ecosystem (via SDKMAN!)
 ```bash curl -s "https://get.sdkman.io" | bash ```
 ```bash source "$HOME/.sdkman/bin/sdkman-init.sh" ```
@@ -70,27 +68,27 @@ brew install \
 💡 Dicas e Atalhos
 Comandos Úteis
 
-check_env      # Verifica todas as ferramentas
-atalhos       # Lista seus atalhos personalizados
-z <pasta>     # Navegação inteligente (zoxide)
+1. check_env      # Verifica todas as ferramentas
+2. atalhos        # Lista seus atalhos personalizados
+3. z <pasta>      # Navegação inteligente (zoxide)
 
-Teclas de Atalho
-Ctrl+R: Busca no histórico com FZF
-Ctrl+T: Busca de arquivos
-Alt+C: Navegação entre pastas
+📋Teclas de Atalho
+1. Ctrl+R: Busca no histórico com FZF
+2. Ctrl+T: Busca de arquivos
+3. Alt+C: Navegação entre pastas
 
 🔄 Manutenção
 Atualizar Tudo
-``` brew update && brew upgrade ```
-``` omz update```
-``` sdk selfupdate ```
+```bash brew update && brew upgrade ```
+```bash omz update ```
+```bash sdk selfupdate ```
 
 🛠️  Solução de Problemas
 # Se plugins não carregarem:
-```bash  exec zsh ```
+```bash exec zsh ```
 
 # Limpar cache:
-```bash  rm ~/.zcompdump* ```
+```bash rm ~/.zcompdump* ```
 
 🌟 Recomendações Finais
 1. Reinicie o terminal após mudanças
