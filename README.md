@@ -29,10 +29,10 @@ Oh My Zsh (Framework Zsh) <br/>
 
 🔌 Plugins Recomendados
 Plugin	Comando	Benefício
-1. Autosuggestions	```bash brew install zsh-autosuggestions ``` 	🛠️ Completa comandos automaticamente<br/>
-2. Syntax Highlighting	```bashbrew install zsh-syntax-highlighting ```	🛠️ Destaca sintaxe dos comandos<br/>
-3. Zoxide	```bash brew install zoxide	``` 🛠️ Navegação inteligente entre pastas<br/>
-4. FZF	```bash brew install fzf && $(brew --prefix)/opt/fzf/install```	🛠️ Busca fuzzy super rápida<br/>
+1. Autosuggestions	```bash brew install zsh-autosuggestions ```          📝Completa comandos automaticamente. <br/>
+2. Syntax Highlighting	```bashbrew install zsh-syntax-highlighting ``` 	🪄Destaca sintaxe dos comandos. <br/>
+3. Zoxide	```bash brew install zoxide	```                                 📡Navegação inteligente entre pastas. <br/>
+4. FZF	```bash brew install fzf && $(brew --prefix)/opt/fzf/install```	  🔍Busca fuzzy super rápida. <br/>
 
 🧰 Ferramentas Essenciais
 Dev Tools
