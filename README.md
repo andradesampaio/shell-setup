@@ -17,15 +17,15 @@ Um guia completo para transformar seu terminal em uma máquina de produtividade 
 
 ## 🍎 Pré-requisitos
 
-### Homebrew (Gerenciador de Pacotes)
+🛠️ Homebrew (Gerenciador de Pacotes)
 ```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```<br/>
 ```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ```
 ```bash source ~/.zshrc ```
 
 
-## 🛠️ Instalação
-Oh My Zsh (Framework Zsh)
-```bash brew install zsh```<br/>
+🛠️ Instalação
+Oh My Zsh (Framework Zsh) <br/>
+```bash brew install zsh``` <br/>
 ```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```<br/>
 
 🔌 Plugins Recomendados
