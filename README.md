@@ -18,22 +18,22 @@ Um guia completo para transformar seu terminal em uma máquina de produtividade 
 ## 🍎 Pré-requisitos
 
 ### Homebrew (Gerenciador de Pacotes)
-```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
-```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ```
-```bash source ~/.zshrc ```
+```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```\
+```bash echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc ```\
+```bash source ~/.zshrc ```\
 
 
 ## 🛠️ Instalação
-Oh My Zsh (Framework Zsh)
-```bash brew install zsh```
-```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```
+Oh My Zsh (Framework Zsh)\
+```bash brew install zsh```\
+```bash  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```\
 
 🔌 Plugins Recomendados
 Plugin	Comando	Benefício
-Autosuggestions	```bash brew install zsh-autosuggestions ``` 	🛠️ Completa comandos automaticamente
-Syntax Highlighting	```bashbrew install zsh-syntax-highlighting ```	🛠️ Destaca sintaxe dos comandos
-Zoxide	```bash brew install zoxide	``` 🛠️ Navegação inteligente entre pastas
-FZF	```bash brew install fzf && $(brew --prefix)/opt/fzf/install```	🛠️ Busca fuzzy super rápida
+Autosuggestions	```bash brew install zsh-autosuggestions ``` 	🛠️ Completa comandos automaticamente\
+Syntax Highlighting	```bashbrew install zsh-syntax-highlighting ```	🛠️ Destaca sintaxe dos comandos\
+Zoxide	```bash brew install zoxide	``` 🛠️ Navegação inteligente entre pastas\
+FZF	```bash brew install fzf && $(brew --prefix)/opt/fzf/install```	🛠️ Busca fuzzy super rápida\
 
 🛠️ Ferramentas Essenciais
 Dev Tools
@@ -59,29 +59,29 @@ brew install \
 ```
 
 ⚙️ Java Ecosystem (via SDKMAN!)
-```bash curl -s "https://get.sdkman.io" | bash ```
-```bash source "$HOME/.sdkman/bin/sdkman-init.sh" ```
-```bash sdk install java 21.0.0-tem ```
+```bash curl -s "https://get.sdkman.io" | bash ```\
+```bash source "$HOME/.sdkman/bin/sdkman-init.sh" ```\
+```bash sdk install java 21.0.0-tem ```\
 
 📋 Copiar configuração completa (https://github.com/andradesampaio/shell-setup/blob/main/.zshrc)
 
 💡 Dicas e Atalhos
 Comandos Úteis
 
-1. check_env      # Verifica todas as ferramentas
-2. atalhos        # Lista seus atalhos personalizados
-3. z <pasta>      # Navegação inteligente (zoxide)
+1. check_env      # Verifica todas as ferramentas\
+2. atalhos        # Lista seus atalhos personalizados\
+3. z <pasta>      # Navegação inteligente (zoxide)\
 
 📋Teclas de Atalho
-1. Ctrl+R: Busca no histórico com FZF
-2. Ctrl+T: Busca de arquivos
-3. Alt+C: Navegação entre pastas
+1. Ctrl+R: Busca no histórico com FZF\
+2. Ctrl+T: Busca de arquivos\
+3. Alt+C: Navegação entre pastas\
 
 🔄 Manutenção
 Atualizar Tudo
-```bash brew update && brew upgrade ```
-```bash omz update ```
-```bash sdk selfupdate ```
+```bash brew update && brew upgrade ```\
+```bash omz update ```\
+```bash sdk selfupdate ```\
 
 🛠️  Solução de Problemas
 # Se plugins não carregarem:
